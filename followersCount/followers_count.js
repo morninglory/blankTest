@@ -16,5 +16,10 @@ function checkCountValue(){
     } else if (count === 20){
         alert("Your instagram account gained 20 followers");
     }
+}
 
+function resetCount(){
+    count = 0;
+    displayCount();
+    alert("Your followers count is set to 0")
 }
